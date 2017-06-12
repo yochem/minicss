@@ -12,7 +12,7 @@ with open('LICENSE') as l:
 setup(
     name = 'minicss',
     packages = ['minicss'],
-    version = '1.1',
+    version = '1.2',
     description = long_description,
     long_description = long_description,
     author = 'Yochem van Rosmalen',
