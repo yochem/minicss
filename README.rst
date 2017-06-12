@@ -1,20 +1,23 @@
 # MINI CSS
-##### By: Yochem van Rosmalen
----
+----------
 
+A small Click_-wrapper around the python
+CLI-tool from Kyle S. at cssminifier.com_.
+All credits go to *him*.
 
+.. _Click: https://github.com/pallets/click
+.. _cssminifier.com: https://www.cssminifier.com/python
 
-A small [Click](https://github.com/pallets/click)-wrapper around the python
-CLI-tool from Kyle S. at [cssminifier.com](https://www.cssminifier.com/python).
-All credits go to him.
+Download
+========
+``$ pip install minicss``
 
+Usage
+=====
+``$ mini test.css``
 
-## Usage
-
-
-
-
-### MIT license
+MIT license
+===========
 Copyright (c) 2017 Yochem van Rosmalen
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

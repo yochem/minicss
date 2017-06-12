@@ -4,7 +4,7 @@ import requests
 import click
 
 @click.command()
-@click.version_option('1.0')
+@click.version_option('1.2')
 @click.argument('css_file', type=click.Path(exists=True))
 def main(css_file):
 

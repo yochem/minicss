@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 dependencies = ['click']
 
-with open('README.md') as r:
+with open('README.rst') as r:
     long_description = r.read()
 
 with open('LICENSE') as l:
@@ -12,7 +12,7 @@ with open('LICENSE') as l:
 setup(
     name = 'minicss',
     packages = ['minicss'],
-    version = '1.0',
+    version = '1.1',
     description = long_description,
     long_description = long_description,
     author = 'Yochem van Rosmalen',
