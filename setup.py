@@ -17,7 +17,8 @@ setup(
     long_description = long_description,
     author = 'Yochem van Rosmalen',
     author_email = 'yochem@icloud.com',
-    #url = 'https://github.com/yochem/',
+    url = 'https://github.com/yochem/minicss',
+    download_url = 'https://www.github.com/yochem/minicss/archive/1.0.tar.gz'
     license = license,
     include_package_data = True,
     zip_safe = False,
