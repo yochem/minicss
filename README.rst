@@ -1,9 +1,9 @@
-# MINI CSS
-----------
+MINI CSS
+--------
 
 A small Click_-wrapper around the python
-CLI-tool from Kyle S. at cssminifier.com_.
-All credits go to *him*.
+CLI-tool from Kyle S. and the css minifying from cssminifier.com_.
+All credits go to *them*.
 
 .. _Click: https://github.com/pallets/click
 .. _cssminifier.com: https://www.cssminifier.com/python
@@ -14,7 +14,7 @@ Download
 
 Usage
 =====
-``$ mini test.css``
+``$ mini [PATH TO CSS FILE]``
 
 MIT license
 ===========
