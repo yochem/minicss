@@ -1,7 +1,10 @@
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
+
 import sys
 import requests
 import click
+
 
 @click.command()
 @click.version_option('1.2')
@@ -15,16 +18,17 @@ def main(css_file):
     # Pack it, ship it
     payload = {'input': css}
     url = 'https://cssminifier.com/raw'
-    click.secho("Requesting mini-me of {}. . .".format(c.name), fg='green', bold=True)
+    click.secho("Requesting mini-me of {}. . .".format(c.name),
+                fg='green', bold=True)
     r = requests.post(url, payload)
 
     # Write out minified version
-    minified = css_file.rstrip('.css')+'.min.css'
+    minified = css_file.rstrip('.css') + '.min.css'
     with open(minified, 'w') as m:
         m.write(r.text)
 
-    click.secho("Minification complete. See {}".format(m.name), fg='green', bold=True)
-
+    click.secho("Minification complete. See {}".format(
+        m.name), fg='green', bold=True)
 
 
 if __name__ == '__main__':
